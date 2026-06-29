@@ -14,10 +14,11 @@
 > 96% answerable coverage and 3× better calibration. Bring your own documents and
 > LLM; it's three lines to try.
 
-[![CI](https://blank.com/MohammadNasrallahBlank/Trustworthy-RAG/actions/workflows/ci.yml/badge.svg)](https://blank.com/MohammadNasrallahBlank/Trustworthy-RAG/actions/workflows/ci.yml)
+[![CI](https://github.com/MohammadNasrallahBlank/Trustworthy-RAG/actions/workflows/ci.yml/badge.svg)](https://github.com/MohammadNasrallahBlank/Trustworthy-RAG/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
 [![Tests](https://img.shields.io/badge/tests-149%20passing-brightgreen.svg)](tests/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21047155.svg)](https://doi.org/10.5281/zenodo.21047155)
 
 **Runnable fully offline** on deterministic fallbacks (no model weights or
 network needed) — swap in real open models with one flag.
@@ -347,17 +348,21 @@ AI coding assistance working under my direction and review.
 
 ## Citation
 
+The paper is archived on Zenodo: **DOI [10.5281/zenodo.21047155](https://doi.org/10.5281/zenodo.21047155)**.
+
 ```bibtex
-@software{nasrallah_trustworthy_rag_2026,
-  author  = {Mohamad Nasrallah},
-  title   = {Trustworthy RAG: Reducing Unsupported Confident Answers with Verification and Calibrated Abstention},
-  year    = {2026},
-  version = {1.1.0},
-  url     = {https://blank.com/MohammadNasrallahBlank/Trustworthy-RAG}
+@misc{nasrallah_trustworthy_rag_2026,
+  author       = {Mohamad Nasrallah},
+  title        = {Trustworthy RAG: Reducing Unsupported Confident Answers with Verification and Calibrated Abstention},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21047155},
+  url          = {https://doi.org/10.5281/zenodo.21047155}
 }
 ```
 
-See also [`CITATION.cff`](CITATION.cff).
+See also [`CITATION.cff`](CITATION.cff) and the code at
+<https://github.com/MohammadNasrallahBlank/Trustworthy-RAG>.
 
 ## Contributing
 

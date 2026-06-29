@@ -33,9 +33,9 @@ demo = ["gradio>=4.0"]
 srag = "srag.cli:main"
 
 [project.urls]
-Homepage = "https://blank.com/MohammadNasrallahBlank/Trustworthy-RAG"
-Repository = "https://blank.com/MohammadNasrallahBlank/Trustworthy-RAG"
-Issues = "https://blank.com/MohammadNasrallahBlank/Trustworthy-RAG/issues"
+Homepage = "https://github.com/MohammadNasrallahBlank/Trustworthy-RAG"
+Repository = "https://github.com/MohammadNasrallahBlank/Trustworthy-RAG"
+Issues = "https://github.com/MohammadNasrallahBlank/Trustworthy-RAG/issues"
 
 [tool.setuptools]
 packages = ["srag", "srag.evaluation"]
