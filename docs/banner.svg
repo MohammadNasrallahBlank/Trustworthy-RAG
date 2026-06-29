@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <!-- title -->
+  <text x="64" y="118" fill="#f9fafb" font-size="56" font-weight="800">Trustworthy RAG</text>
+  <text x="66" y="162" fill="#9ca3af" font-size="23" font-weight="500">Diagnose <tspan fill="#60a5fa">why</tspan> the answer is wrong &#8212; then apply the <tspan fill="#a78bfa">right</tspan> fix.</text>
+  <!-- pipeline chips -->
+  <g font-size="15" font-weight="600">
+    <g transform="translate(64,210)">
+      <rect width="92" height="34" rx="17" fill="#1f2937" stroke="#374151"/>
+      <text x="46" y="22" fill="#e5e7eb" text-anchor="middle">retrieve</text>
+    </g>
+    <g transform="translate(168,210)">
+      <rect width="96" height="34" rx="17" fill="#1f2937" stroke="#374151"/>
+      <text x="48" y="22" fill="#e5e7eb" text-anchor="middle">generate</text>
+    </g>
+    <g transform="translate(276,210)">
+      <rect width="80" height="34" rx="17" fill="#0b2a4a" stroke="#2563eb"/>
+      <text x="40" y="22" fill="#93c5fd" text-anchor="middle">verify</text>
+    </g>
+    <g transform="translate(368,210)">
+      <rect width="112" height="34" rx="17" fill="#2a1840" stroke="#7c3aed"/>
+      <text x="56" y="22" fill="#c4b5fd" text-anchor="middle">diagnose</text>
+    </g>
+    <g transform="translate(492,210)">
+      <rect width="96" height="34" rx="17" fill="#3a2008" stroke="#d97706"/>
+      <text x="48" y="22" fill="#fcd34d" text-anchor="middle">correct</text>
+    </g>
+    <g transform="translate(600,210)">
+      <rect width="150" height="34" rx="17" fill="#06281c" stroke="#16a34a"/>
+      <text x="75" y="22" fill="#86efac" text-anchor="middle">answer / abstain</text>
+    </g>
+    <!-- loop arrow -->
+    <path d="M 540 244 C 540 286, 320 286, 320 248" fill="none" stroke="#6b7280" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="430" y="300" fill="#6b7280" font-size="13" text-anchor="middle">bounded correction loop</text>
+  </g>
+  <!-- right accent panel -->
+  <g transform="translate(880,0)">
+    <rect x="0" y="0" width="320" height="320" fill="#0b1220"/>
+    <rect x="40" y="70" width="240" height="4" rx="2" fill="url(#accent)"/>
+    <text x="160" y="130" fill="#f3f4f6" font-size="20" font-weight="700" text-anchor="middle">verify on signals</text>
+    <text x="160" y="158" fill="#9ca3af" font-size="15" text-anchor="middle">not vibes</text>
+    <text x="160" y="206" fill="#f3f4f6" font-size="20" font-weight="700" text-anchor="middle">abstain when unsure</text>
+    <text x="160" y="234" fill="#9ca3af" font-size="15" text-anchor="middle">a first-class output</text>
+  </g>
+</svg>

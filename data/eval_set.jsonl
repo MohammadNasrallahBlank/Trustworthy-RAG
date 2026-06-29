@@ -1,0 +1,10 @@
+{"question": "What nationality is the director of the film Ran?", "answers": ["Japanese"], "supporting_chunk_ids": ["ran-film::c0", "kurosawa-bio::c0"], "answerable": true, "type": "bridge"}
+{"question": "Who directed Seven Samurai?", "answers": ["Akira Kurosawa", "Kurosawa"], "supporting_chunk_ids": ["seven-samurai::c0"], "answerable": true, "type": "single-hop"}
+{"question": "What nationality was Akira Kurosawa?", "answers": ["Japanese"], "supporting_chunk_ids": ["kurosawa-bio::c0"], "answerable": true, "type": "single-hop"}
+{"question": "In what year was the Kintai Bridge built?", "answers": ["1673"], "supporting_chunk_ids": ["kinopo-bridge::c0"], "answerable": true, "type": "single-hop"}
+{"question": "Where is the Kintai Bridge located?", "answers": ["Iwakuni", "Yamaguchi Prefecture", "Japan"], "supporting_chunk_ids": ["kinopo-bridge::c0"], "answerable": true, "type": "single-hop"}
+{"question": "What method combines a sparse and a dense ranked list?", "answers": ["Reciprocal Rank Fusion", "RRF"], "supporting_chunk_ids": ["splade-note::c1"], "answerable": true, "type": "single-hop"}
+{"question": "What is the capital of France?", "answers": [], "supporting_chunk_ids": [], "answerable": false, "type": "unanswerable"}
+{"question": "What is the population of the Mars colony in 2200?", "answers": [], "supporting_chunk_ids": [], "answerable": false, "type": "unanswerable"}
+{"question": "Who won the 2050 World Cup?", "answers": [], "supporting_chunk_ids": [], "answerable": false, "type": "unanswerable"}
+{"question": "Who is the CEO of the Andromeda Mining Guild?", "answers": [], "supporting_chunk_ids": [], "answerable": false, "type": "unanswerable"}

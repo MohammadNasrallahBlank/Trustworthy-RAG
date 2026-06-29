@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Trustworthy RAG: Reducing Unsupported Confident Answers with Verification and Calibrated Abstention"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Nasrallah"
+    given-names: "Mohamad"
+version: 1.1.0
+date-released: 2026-06-29
+license: MIT
+repository-code: "https://blank.com/MohammadNasrallahBlank/Trustworthy-RAG"
+keywords:
+  - retrieval-augmented generation
+  - self-correction
+  - faithfulness
+  - abstention
+  - evaluation

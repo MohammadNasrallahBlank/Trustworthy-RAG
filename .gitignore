@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+*.whl
+*.tar.gz
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Tooling / caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large datasets (downloaded locally) + generated outputs
+data/raw/
+*.parquet
+results/
+*.pkl
+srag_index.pkl

@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "s1",
+    "type": "bridge",
+    "level": "medium",
+    "question": "What nationality is the director of the film Ran?",
+    "answer": "Japanese",
+    "supporting_facts": [["Ran (film)", 0], ["Akira Kurosawa", 0]],
+    "context": [
+      ["Ran (film)", ["Ran is a 1985 epic samurai film directed by Akira Kurosawa.", "It transposes the plot of Shakespeare's King Lear to Sengoku-era Japan."]],
+      ["Akira Kurosawa", ["Akira Kurosawa was a Japanese filmmaker and painter who directed thirty films.", "He was born in Tokyo in 1910."]],
+      ["Seven Samurai", ["Seven Samurai is a 1954 Japanese epic film directed by Akira Kurosawa.", "It follows a village that hires seven masterless samurai."]],
+      ["Kintai Bridge", ["The Kintai Bridge is a wooden arch bridge in Iwakuni, Japan.", "It was built in 1673."]]
+    ]
+  },
+  {
+    "_id": "s2",
+    "type": "comparison",
+    "level": "hard",
+    "question": "Were Akira Kurosawa and Yasujiro Ozu both Japanese film directors?",
+    "answer": "yes",
+    "supporting_facts": [["Akira Kurosawa", 0], ["Yasujiro Ozu", 0]],
+    "context": [
+      ["Akira Kurosawa", ["Akira Kurosawa was a Japanese filmmaker and painter who directed thirty films.", "He was born in Tokyo in 1910."]],
+      ["Yasujiro Ozu", ["Yasujiro Ozu was a Japanese film director and screenwriter.", "His film Tokyo Story is widely regarded as a masterpiece."]],
+      ["Ran (film)", ["Ran is a 1985 epic samurai film directed by Akira Kurosawa."]],
+      ["Citizen Kane", ["Citizen Kane is a 1941 American film directed by Orson Welles."]]
+    ]
+  },
+  {
+    "_id": "s3",
+    "type": "bridge",
+    "level": "easy",
+    "question": "In which prefecture is the Kintai Bridge located?",
+    "answer": "Yamaguchi Prefecture",
+    "supporting_facts": [["Kintai Bridge", 0]],
+    "context": [
+      ["Kintai Bridge", ["The Kintai Bridge is a historical wooden arch bridge in Iwakuni, in Yamaguchi Prefecture, Japan.", "It spans the Nishiki River in a series of five wooden arches."]],
+      ["Iwakuni", ["Iwakuni is a city in Yamaguchi Prefecture, Japan."]],
+      ["Tokyo", ["Tokyo is the capital of Japan."]]
+    ]
+  },
+  {
+    "_id": "s4",
+    "type": "bridge",
+    "level": "medium",
+    "question": "Who directed the 1954 film about a village that hires seven samurai?",
+    "answer": "Akira Kurosawa",
+    "supporting_facts": [["Seven Samurai", 0]],
+    "context": [
+      ["Seven Samurai", ["Seven Samurai is a 1954 Japanese epic film directed by Akira Kurosawa about a village that hires seven masterless samurai to fight bandits."]],
+      ["Akira Kurosawa", ["Akira Kurosawa was a Japanese filmmaker who directed thirty films."]],
+      ["Ran (film)", ["Ran is a 1985 epic samurai film directed by Akira Kurosawa."]]
+    ]
+  }
+]

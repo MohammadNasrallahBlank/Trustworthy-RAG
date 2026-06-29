@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trustworthy-rag"
+version = "1.1.0"
+description = "A diagnosis-driven self-correcting RAG architecture: verify on checkable signals, diagnose the failure mode, apply a targeted correction, and abstain when unsure."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Mohamad Nasrallah" }]
+keywords = ["rag", "retrieval-augmented-generation", "self-correction", "nlp", "llm", "information-retrieval", "evaluation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["numpy>=1.23"]
+
+[project.optional-dependencies]
+# Real open models. The core runs fully without these (deterministic fallbacks).
+models = ["sentence-transformers>=2.2", "transformers>=4.40", "torch>=2.0"]
+dev = ["pytest>=7.0"]
+demo = ["gradio>=4.0"]
+
+[project.scripts]
+srag = "srag.cli:main"
+
+[project.urls]
+Homepage = "https://blank.com/MohammadNasrallahBlank/Trustworthy-RAG"
+Repository = "https://blank.com/MohammadNasrallahBlank/Trustworthy-RAG"
+Issues = "https://blank.com/MohammadNasrallahBlank/Trustworthy-RAG/issues"
+
+[tool.setuptools]
+packages = ["srag", "srag.evaluation"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

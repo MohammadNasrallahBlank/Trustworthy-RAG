@@ -1,0 +1,12 @@
+# Stage 1 core. The pipeline runs with only numpy installed (pure-Python
+# BM25, TF-IDF dense fallback, lexical reranker, extractive generator).
+numpy>=1.23
+
+# Optional but recommended: real open models for dense retrieval + reranking.
+# When installed AND model weights are reachable, the pipeline auto-upgrades
+# from the offline fallbacks to these. No code change needed.
+#   sentence-transformers>=2.2   # bi-encoder embeddings + CrossEncoder reranker
+#   rank-bm25>=0.2               # (optional) drop-in BM25; pure-Python BM25 ships built-in
+
+# Testing
+pytest>=7.0
